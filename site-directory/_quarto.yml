@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Wannabe Rstats-fu"
+  
+  twitter-card: true
+  
+  favicon: assets/favicon.ico
+  
+  navbar:
+    right:
+      - about.qmd
+      - icon: twitter
+        href: https://twitter.com/yutannihilat_en
+      - icon: github
+        href: https://github.com/yutannihilation
+
+format:
+  html:
+    # Theme
+    theme:
+      - lumen
+      - custom.scss
+    
+    # Table of contents
+    toc: true
+    toc-title: "Contents"
+    toc-location: left
+
+editor: visual
+
